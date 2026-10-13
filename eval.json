@@ -4,6 +4,10 @@
     "question": "When does a small merchant receive UPI money?",
     "as_of_date": "2026-08-15",
     "expected_answer": "T+1 next working day",
+    "expected_answer_contains": [
+      "T+1",
+      "next working day"
+    ],
     "expected_citations": [
       "policy_master_v1.md"
     ],
@@ -14,6 +18,10 @@
     "question": "When does a merchant with Instant Settlement receive UPI money?",
     "as_of_date": "2026-08-15",
     "expected_answer": "T+0 by 11:59 PM",
+    "expected_answer_contains": [
+      "T+0",
+      "11:59 PM"
+    ],
     "expected_citations": [
       "circular_2026_08_amendment.md"
     ],
@@ -24,6 +32,10 @@
     "question": "Large merchant above Rs.10 lakh monthly receives Rs.4,000 UPI. What MDR and GST?",
     "as_of_date": "2026-08-15",
     "expected_answer": "MDR 20, GST 3.60",
+    "expected_answer_contains": [
+      "MDR charged ₹20.00",
+      "GST at 18% ₹3.60"
+    ],
     "expected_citations": [
       "circular_2026_08_amendment.md"
     ],
@@ -34,6 +46,10 @@
     "question": "Large merchant above Rs.10 lakh monthly receives Rs.1,50,000 UPI. What MDR and GST?",
     "as_of_date": "2026-08-15",
     "expected_answer": "MDR 25, GST 4.50",
+    "expected_answer_contains": [
+      "MDR charged ₹25.00",
+      "GST at 18% ₹4.50"
+    ],
     "expected_citations": [
       "circular_2026_08_amendment.md"
     ],
@@ -44,6 +60,11 @@
     "question": "Refund 3 hours after sale, do I get MDR back?",
     "as_of_date": "2026-08-20",
     "expected_answer": "Yes, within 24 hours",
+    "expected_answer_contains": [
+      "Yes",
+      "within 24 hours",
+      "MDR is reversed in full"
+    ],
     "expected_citations": [
       "policy_master_v1.md"
     ],
@@ -54,6 +75,11 @@
     "question": "Refund 3 hours after sale, do I get MDR back?",
     "as_of_date": "2026-09-05",
     "expected_answer": "No, clause 3.3 deleted",
+    "expected_answer_contains": [
+      "No",
+      "clause 3.3 is deleted",
+      "MDR on a refunded transaction is not returned"
+    ],
     "expected_citations": [
       "circular_2026_08_amendment.md"
     ],
@@ -64,6 +90,13 @@
     "question": "What does the FAQ say about the MDR cap, and is it right?",
     "as_of_date": "2026-08-15",
     "expected_answer": "FAQ wrong; cap applies",
+    "expected_answer_contains": [
+      "The FAQ says there is no upper limit on the fee",
+      "it is wrong",
+      "₹15 for merchants with monthly volume up to ₹10 lakh",
+      "₹25 for merchants above ₹10 lakh",
+      "GST is charged separately"
+    ],
     "expected_citations": [
       "merchant_faq_2026-03.md"
     ],
@@ -74,6 +107,10 @@
     "question": "Can a customer pay Rs.1,00,000 twice in one day to a merchant?",
     "as_of_date": "2026-08-15",
     "expected_answer": "No, daily limit 100000",
+    "expected_answer_contains": [
+      "daily limit is ₹1,00,000",
+      "would exceed that daily limit"
+    ],
     "expected_citations": [
       "circular_2026_08_amendment.md"
     ],
@@ -84,6 +121,11 @@
     "question": "I closed my account yesterday. When will I get my money?",
     "as_of_date": "2026-08-15",
     "expected_answer": "Within 10 working days of closure after dues; exact date unclear",
+    "expected_answer_contains": [
+      "within 10 working days of closure",
+      "after deducting outstanding dues",
+      "exact payout date cannot be determined"
+    ],
     "expected_citations": [
       "policy_master_v1.md"
     ],
@@ -94,6 +136,10 @@
     "question": "Does policy allow me to settle card payments same day?",
     "as_of_date": "2026-08-15",
     "expected_answer": "Not specified; card settlement T+2",
+    "expected_answer_contains": [
+      "T+2",
+      "does not separately state whether same-day card settlement is permitted"
+    ],
     "expected_citations": [
       "policy_master_v1.md"
     ],
@@ -104,6 +150,12 @@
     "question": "FAQ says there is no upper fee limit. Is that true?",
     "as_of_date": "2026-08-15",
     "expected_answer": "False, capped at 25 for large merchants",
+    "expected_answer_contains": [
+      "The FAQ says there is no upper limit",
+      "it is wrong",
+      "₹25 for merchants above ₹10 lakh",
+      "GST is charged separately"
+    ],
     "expected_citations": [
       "policy_master_v1.md",
       "circular_2026_08_amendment.md"
@@ -115,6 +167,10 @@
     "question": "Can insurance merchant accept Rs.2,00,000 in one UPI transaction?",
     "as_of_date": "2026-08-15",
     "expected_answer": "Enhanced KYC required; daily/bank limit may constrain",
+    "expected_answer_contains": [
+      "enhanced KYC",
+      "daily limit or bank limit may still be lower"
+    ],
     "expected_citations": [
       "policy_master_v1.md"
     ],
@@ -125,6 +181,10 @@
     "question": "What is the MDR cap for a small merchant before August 2026?",
     "as_of_date": "2026-07-20",
     "expected_answer": "15 rupees",
+    "expected_answer_contains": [
+      "₹15",
+      "cap"
+    ],
     "expected_citations": [
       "policy_master_v1.md"
     ],
@@ -135,6 +195,9 @@
     "question": "What is the exact settlement date for my account?",
     "as_of_date": "2026-08-15",
     "expected_answer": "Insufficient details",
+    "expected_answer_contains": [
+      "cannot answer this reliably"
+    ],
     "expected_citations": [],
     "expected_status": "CANNOT_ANSWER"
   }
