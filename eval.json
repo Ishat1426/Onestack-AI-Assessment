@@ -1,0 +1,141 @@
+[
+  {
+    "id": "E01",
+    "question": "When does a small merchant receive UPI money?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "T+1 next working day",
+    "expected_citations": [
+      "policy_master_v1.md"
+    ],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E02",
+    "question": "When does a merchant with Instant Settlement receive UPI money?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "T+0 by 11:59 PM",
+    "expected_citations": [
+      "circular_2026_08_amendment.md"
+    ],
+    "expected_status": "ANSWERED"
+  },
+  {
+    "id": "E03",
+    "question": "Large merchant above Rs.10 lakh monthly receives Rs.4,000 UPI. What MDR and GST?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "MDR 20, GST 3.60",
+    "expected_citations": [
+      "circular_2026_08_amendment.md"
+    ],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E04",
+    "question": "Large merchant above Rs.10 lakh monthly receives Rs.1,50,000 UPI. What MDR and GST?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "MDR 25, GST 4.50",
+    "expected_citations": [
+      "circular_2026_08_amendment.md"
+    ],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E05",
+    "question": "Refund 3 hours after sale, do I get MDR back?",
+    "as_of_date": "2026-08-20",
+    "expected_answer": "Yes, within 24 hours",
+    "expected_citations": [
+      "policy_master_v1.md"
+    ],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E06",
+    "question": "Refund 3 hours after sale, do I get MDR back?",
+    "as_of_date": "2026-09-05",
+    "expected_answer": "No, clause 3.3 deleted",
+    "expected_citations": [
+      "circular_2026_08_amendment.md"
+    ],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E07",
+    "question": "What does the FAQ say about the MDR cap, and is it right?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "FAQ wrong; cap applies",
+    "expected_citations": [
+      "merchant_faq_2026-03.md"
+    ],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E08",
+    "question": "Can a customer pay Rs.1,00,000 twice in one day to a merchant?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "No, daily limit 100000",
+    "expected_citations": [
+      "circular_2026_08_amendment.md"
+    ],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E09",
+    "question": "I closed my account yesterday. When will I get my money?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "Within 10 working days of closure after dues; exact date unclear",
+    "expected_citations": [
+      "policy_master_v1.md"
+    ],
+    "expected_status": "ANSWERED"
+  },
+  {
+    "id": "E10",
+    "question": "Does policy allow me to settle card payments same day?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "Not specified; card settlement T+2",
+    "expected_citations": [
+      "policy_master_v1.md"
+    ],
+    "expected_status": "CANNOT_ANSWER"
+  },
+  {
+    "id": "E11",
+    "question": "FAQ says there is no upper fee limit. Is that true?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "False, capped at 25 for large merchants",
+    "expected_citations": [
+      "policy_master_v1.md",
+      "circular_2026_08_amendment.md"
+    ],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E12",
+    "question": "Can insurance merchant accept Rs.2,00,000 in one UPI transaction?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "Enhanced KYC required; daily/bank limit may constrain",
+    "expected_citations": [
+      "policy_master_v1.md"
+    ],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E13",
+    "question": "What is the MDR cap for a small merchant before August 2026?",
+    "as_of_date": "2026-07-20",
+    "expected_answer": "15 rupees",
+    "expected_citations": [
+      "policy_master_v1.md"
+    ],
+    "expected_status": "ANSWERED"
+  },
+  {
+    "id": "E14",
+    "question": "What is the exact settlement date for my account?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "Insufficient details",
+    "expected_citations": [],
+    "expected_status": "CANNOT_ANSWER"
+  }
+]
